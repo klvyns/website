@@ -1,0 +1,146 @@
+/* main text styles */
+
+html,
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    background-color: white;
+    color: #737373;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+
+i {
+    font-family: "Times New Roman", serif;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: gray;
+}
+
+h1,
+h2,
+h3 {
+    color: #ba3925;
+    font-family: Georgia, serif;
+    font-weight: normal;
+}
+
+/* divs and other styles */
+
+h1.homepage {
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+}
+
+header.header {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-bottom: solid 1px #e1e1e1;
+}
+
+.center {
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    height: 200px;
+    position: relative;
+    top: 50%;
+    margin-top: 200px;
+}
+
+div.home-gallery {
+    display: grid;
+    grid-template-columns: 1 1;
+    gap: 1.5rem;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+div.home-gallery-item img {
+    height: 171px;
+}
+
+.footer {
+    margin-top: 35px;
+    border-top: solid 1px #e1e1e1;
+    text-align: left;
+    font-size: 14px;
+    color: #afafaf;
+}
+
+.footer a {
+    color: #afafaf;
+    text-decoration: none;
+}
+
+hr {
+    border: solid 1px #e1e1e1;
+}
+
+.pill {
+    font-family:
+        system-ui,
+        -apple-system,
+        sans-serif;
+    background-color: #f3f4f6;
+    border: solid 1px #e1e1e1;
+    font-size: 12px;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 6px;
+    margin-right: 3px;
+}
+
+.pillbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+    line-height: 1.2;
+}
+
+td,
+th {
+    text-align: left;
+    border: 0px solid;
+    padding: 6px 12px;
+    vertical-align: middle;
+}
+
+/* hi */
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    position: relative;
+}
+
+.large {
+    position: absolute;
+    left: -9999px;
+}
+
+li:hover .large {
+    left: 20px;
+    top: -150px;
+}
