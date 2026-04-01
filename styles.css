@@ -3,8 +3,8 @@
 html,
 body {
     font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 1.6;
     position: relative;
     background-color: white;
     color: #737373;
@@ -21,7 +21,6 @@ i {
 
 figcaption {
     font-style: italic;
-    font-size: 14px;
     color: gray;
 }
 
@@ -51,7 +50,7 @@ header.header {
 }
 
 .center {
-    width: 700px;
+    width: 600px;
     margin: auto;
     padding: 20px;
     height: 200px;
@@ -73,40 +72,20 @@ div.home-gallery-item img {
 }
 
 .footer {
-    margin-top: 35px;
+    margin-top: 50px;
     border-top: solid 1px #e1e1e1;
     text-align: left;
-    font-size: 14px;
     color: #afafaf;
 }
 
 .footer a {
     color: #afafaf;
     text-decoration: none;
+    font-weight: normal;
 }
 
 hr {
     border: solid 1px #e1e1e1;
-}
-
-.pill {
-    font-family:
-        system-ui,
-        -apple-system,
-        sans-serif;
-    background-color: #f3f4f6;
-    border: solid 1px #e1e1e1;
-    font-size: 12px;
-    display: inline-block;
-    padding: 3px 10px;
-    border-radius: 6px;
-    margin-right: 3px;
-}
-
-.pillbox {
-    display: flex;
-    align-items: center;
-    gap: 10px;
 }
 
 table {
@@ -124,14 +103,13 @@ th {
     vertical-align: middle;
 }
 
-/* hi */
 ul {
     display: flex;
 }
 
 li {
-    list-style-type: none;
-    padding: 10px;
+    list-style-type: circle;
+    padding: 5px;
     position: relative;
 }
 
